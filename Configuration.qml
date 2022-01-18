@@ -7,8 +7,8 @@ ConfigurationBase {
     appName: "AlphaInnotec Konfigurationsassistent"
     appId: "com.consolinno.energy"
 
-    //connectionWizard: "/ui/wizards/ConnectionWizard.qml"
-    connectionWizard: "/ui/connection/NewConnectionWizard.qml"
+    connectionWizard: "/ui/wizards/ConnectionWizard.qml"
+    //connectionWizard: "/ui/connection/NewConnectionWizard.qml"
 
     // Identifier used for branding (e.g. to register for push notifications)
     property string branding: "consolinno"

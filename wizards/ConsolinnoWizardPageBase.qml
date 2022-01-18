@@ -124,7 +124,7 @@ Page {
                     Label {
                         id: backLabel
                         Layout.fillWidth: true
-                        text: qsTr("Back")
+                        text: qsTr("Zurück")
                     }
                 }
                 onClicked: root.back()
@@ -157,7 +157,7 @@ Page {
                     Label {
                         id: nextLabel
                         Layout.fillWidth: true
-                        text: qsTr("Next")
+                        text: qsTr("Weiter")
                     }
                     ColorIcon {
                         Layout.alignment: Qt.AlignRight

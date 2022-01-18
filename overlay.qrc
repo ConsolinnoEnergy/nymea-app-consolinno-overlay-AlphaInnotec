@@ -17,7 +17,6 @@
         <file>images/intro-bg-graphic.svg</file>
         <file>images/leaflet-connect.png</file>
         <file>mainviews/LegendTile.qml</file>
-        <file>components/ConsolinnoChartDelegate.qml</file>
         <file>components/ConsolinnoButton.qml</file>
         <file>mainviews/AlphaInnotecHeatPump.qml</file>
     </qresource>
