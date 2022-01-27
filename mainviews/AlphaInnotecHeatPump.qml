@@ -48,7 +48,7 @@ MainViewBase {
         anchors.centerIn: parent
         width: parent.width - app.margins * 2
         title: qsTr("Es ist noch keine Wärmepumpe konfiguriert.")
-        text: qsTr("Verbinden Sie das Leaflet mit der Wärmepumpe.")
+        text: qsTr("Stellen Sie sicher, dass das Leaflet im selben Netzwerk verbunden ist, wie die Wärmepumpe.  ")
         imageSource: "qrc:/ui/images/thermostat/heating.svg"
         buttonText: qsTr("Wärmepumpe einrichten")
         visible: heatpumps.count === 0 && !engine.thingManager.fetchingData

@@ -1,6 +1,6 @@
 pragma Singleton
 
-import QtQuick 2.0
+import QtQml.Models 2.3
 
 ConfigurationBase {
     systemName: "Leaflet"
@@ -24,5 +24,9 @@ ConfigurationBase {
 
     // Main views filter: Only those main views are enabled
     //property var mainViewsFilter: [ "consolinno", "things" ]
-    property var mainViewsFilter: ["AlphaInnotec"]
+    property var mainViewsFilter: [ "AlphaInnotec"]
+
+    //defaultMainView:  "AlphaInnotec"
+
+
 }

@@ -48,7 +48,7 @@ ConsolinnoWizardPageBase {
                 Layout.fillHeight: true
                 horizontalAlignment: Text.AlignHCenter
                 wrapMode: Text.WordWrap
-                text: qsTr("Stellen Sie sicher, dass das Leaflet betriebsbereit und mit dem Netzwerk verbunden ist.")
+                text: qsTr("Stellen Sie sicher, dass das Leaflet betriebsbereit ist und mit dem Netzwerk verbunden ist.")
             }
             ConsolinnoButton {
                 Layout.alignment: Qt.AlignHCenter
@@ -84,7 +84,7 @@ ConsolinnoWizardPageBase {
                     wrapMode: Text.WordWrap
                     text: hostsProxy.count === 0
                           ? qsTr("Auf der Suche nach Ihrem Leaflet...")
-                          : qsTr("Wir haben mehrere Leaflets in Ihrem Netzwerk entdeckt. Bitte wählen Sie das aus, das Sie einrichten möchten.")
+                          : qsTr("Wir haben mehrere Leaflets im Netzwerk entdeckt. Bitte wählen Sie das gewünschte aus.")
                 }
 
                 ListView {
