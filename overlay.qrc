@@ -4,10 +4,13 @@
         <file>styles/light/Button.qml</file>
         <file>styles/light/logo.svg</file>
         <file>styles/light/logo-wide.svg</file>
+        <file>styles/light/Background.qml</file>
         <file>styles/dark/Style.qml</file>
         <file>styles/dark/Button.qml</file>
         <file>styles/dark/logo.svg</file>
         <file>styles/dark/logo-wide.svg</file>
+        <file>SOURCE_AVAIL_de_DE.txt</file>
+        <file>SOURCE_AVAIL_en_US.txt</file> 
     </qresource>
     <qresource prefix="/ui">
         <file>images/leaf.svg</file>
@@ -18,6 +21,10 @@
         <file>images/leaflet-connect.png</file>
         <file>mainviews/LegendTile.qml</file>
         <file>components/ConsolinnoButton.qml</file>
+        <file>components/ConsolinnoImprintApp.qml</file>
+        <file>components/ConsolinnoBigTile.qml</file>
         <file>mainviews/AlphaInnotecHeatPump.qml</file>
+        
     </qresource>
 </RCC>
+ 
