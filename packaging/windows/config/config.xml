@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
-    <Name>Consolinno energy</Name>
-    <Version>1.6.0</Version>
-    <Title>Consilinno energy Windows Installer</Title>
-    <Publisher>nymea GmbH</Publisher>
-    <StartMenuDir>Consolinno</StartMenuDir>
-    <TargetDir>@ApplicationsDirX64@/Consolinno energy</TargetDir>
+    <Name>Consolinno - Alphainnotec Wizard</Name>
+    <Version>1.0.0</Version>
+    <Title>Consolinno - Alphainnotec Wizard< Windows Installer</Title>
+    <Publisher>Consolinno Energy GmbH</Publisher>
+    <StartMenuDir>Consolinno AIT</StartMenuDir>
+    <TargetDir>@ApplicationsDirX64@/Consolinno AIT</TargetDir>
 </Installer>
