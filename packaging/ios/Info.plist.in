@@ -5,13 +5,13 @@
 	<key>CFBundleDisplayName</key>
         <string>Consolinno energy</string>
 	<key>CFBundleExecutable</key>
-        <string>consolinno-energy</string>
+        <string>consolinno-energy-alpha-innotec</string>
 	<key>CFBundleGetInfoString</key>
 	<string>Created by Qt/QMake</string>
         <key>CFBundleIdentifier</key>
         <string>com.consolinno.energy</string>
 	<key>CFBundleName</key>
-        <string>consolinno-energy</string>
+        <string>consolinno-energy-alpha-innotec</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

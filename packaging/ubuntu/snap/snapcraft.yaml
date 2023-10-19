@@ -1,4 +1,4 @@
-name: consolinno-energy
+name: consolinno-energy-alpha-innotec
 summary: Control app for Leaflets
 description: | 
   Consolinno energy is the control application for Leaflet devices.
@@ -6,7 +6,7 @@ description: |
 grade: stable
 base: core20
 confinement: strict
-adopt-info: consolinno-energy
+adopt-info: consolinno-energy-alpha-innotec
 
 architectures:
 - build-on: amd64
@@ -14,10 +14,10 @@ architectures:
 - build-on: armhf
 
 apps:
-  consolinno-energy:
+  consolinno-energy-alpha-innotec:
     command-chain: [ bin/desktop-launch ]
-    command: usr/bin/consolinno-energy
-    desktop: usr/share/applications/consolinno-energy.desktop
+    command: usr/bin/consolinno-energy-alpha-innotec
+    desktop: usr/share/applications/consolinno-energy-alpha-innotec.desktop
     plugs:
     - avahi-observe
     - bluez
@@ -53,7 +53,7 @@ parts:
       - xdg-user-dirs
       - fcitx-frontend-qt5
 
-  consolinno-energy:
+  consolinno-energy-alpha-innotec:
     plugin: qmake
     qmake-parameters:
       - OVERLAY_PATH=${SNAPCRAFT_PART_SRC}/overlay
