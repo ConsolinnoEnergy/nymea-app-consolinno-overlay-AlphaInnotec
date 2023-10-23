@@ -18,7 +18,7 @@ Component.prototype.createOperations = function()
     // 3010: The system requires a restart. May be triggered if the machine already had a reboot pending before starting us.
     component.addOperation("Execute", "{0,1638,3010}", "@TargetDir@/vc_redist.x64.exe", "/quiet", "/norestart");
     if (systemInfo.productType === "windows") {
-        component.addOperation("CreateShortcut", "@TargetDir@/consolinno-energy-alpha-innotec.exe", "@StartMenuDir@/Consolinno energy.lnk",
+        component.addOperation("CreateShortcut", "@TargetDir@/AlphaInnotecConnectionWizard.exe", "@StartMenuDir@/Consolinno energy.lnk",
             "workingDirectory=@TargetDir@", "iconPath=@TargetDir@/logo.ico",
             "description=Consolinno energy - The Leaflet frontend");
     }
