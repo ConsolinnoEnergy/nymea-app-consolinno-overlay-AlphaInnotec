@@ -2,7 +2,7 @@
 <Installer>
     <Name>Consolinno - Alphainnotec Wizard</Name>
     <Version>1.0.0</Version>
-    <Title>Consolinno - Alphainnotec Wizard< Windows Installer</Title>
+    <Title>Consolinno - Alphainnotec Wizard Windows Installer</Title>
     <Publisher>Consolinno Energy GmbH</Publisher>
     <StartMenuDir>Consolinno AIT</StartMenuDir>
     <TargetDir>@ApplicationsDirX64@/Consolinno AIT</TargetDir>
