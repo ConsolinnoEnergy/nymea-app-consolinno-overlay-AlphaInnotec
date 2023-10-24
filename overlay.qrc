@@ -23,8 +23,8 @@
         <file>components/ConsolinnoButton.qml</file>
         <file>components/ConsolinnoImprintApp.qml</file>
         <file>components/ConsolinnoBigTile.qml</file>
-        <file>mainviews/AlphaInnotecHeatPump.qml</file>
-        
+        <file>components/ConsolinnoPasswordTextField.qml</file>
+        <file>mainviews/AlphaInnotecHeatPump.qml</file>        
     </qresource>
 </RCC>
  
