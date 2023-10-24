@@ -33,11 +33,11 @@ MainViewBase {
     }
 
 
-    GenericDevicePage {
-        anchors.fill: parent
-        thing:heatpump
-        anchors.topMargin: root.topMargin
-    }
+//    GenericDevicePage {
+//        anchors.fill: parent
+//        thing:heatpump
+//        anchors.topMargin: root.topMargin
+//    }
 
 
 
