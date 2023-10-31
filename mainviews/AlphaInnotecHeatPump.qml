@@ -33,11 +33,11 @@ MainViewBase {
     }
 
 
-//    GenericDevicePage {
-//        anchors.fill: parent
-//        thing:heatpump
-//        anchors.topMargin: root.topMargin
-//    }
+    GenericThingPage {
+        anchors.fill: parent
+        thing:heatpump
+        anchors.topMargin: root.topMargin
+    }
 
 
 
@@ -54,9 +54,5 @@ MainViewBase {
         visible: heatpumps.count === 0 && !engine.thingManager.fetchingData
         onButtonClicked: pageStack.push(Qt.resolvedUrl("../thingconfiguration/NewThingPage.qml"))
     }
-
-
-
-
 }
 

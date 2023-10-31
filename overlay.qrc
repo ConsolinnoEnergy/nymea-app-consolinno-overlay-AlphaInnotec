@@ -13,6 +13,7 @@
         <file>SOURCE_AVAIL_en_US.txt</file> 
     </qresource>
     <qresource prefix="/ui">
+        <file>devicepages/GenericThingPage.qml</file>
         <file>system/ConsolinnoUsersSettingsPage.qml</file>
         <file>images/leaf.svg</file>
         <file>Configuration.qml</file>
@@ -26,7 +27,7 @@
         <file>components/ConsolinnoImprintApp.qml</file>
         <file>components/ConsolinnoBigTile.qml</file>
         <file>components/ConsolinnoPasswordTextField.qml</file>
-        <file>mainviews/AlphaInnotecHeatPump.qml</file>        
+        <file>mainviews/AlphaInnotecHeatPump.qml</file>              
     </qresource>
 </RCC>
  
