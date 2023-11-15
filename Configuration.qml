@@ -53,7 +53,7 @@ ConfigurationBase {
 
     // Main views filter: Only those main views are enabled
     //property var mainViewsFilter: [ "consolinno", "things" ]
-    property var mainViewsFilter: [ "AlphaInnotec"]
+    property var mainViewsFilter: [ "AlphaInnotec","things"]
 
     //defaultMainView:  "AlphaInnotec"
 
